@@ -1,0 +1,58 @@
+.myrevs{
+    margin-top: -30px;
+    padding: 20px 40px;
+    color: white;
+}
+.myrevs h3{
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0;
+}
+.inmyrevs{
+    display: flex;
+    gap: 20px;
+}   
+.rprop1{
+    display: flex;
+    flex-direction: column;
+    background: rgba(205, 202, 202, 0.4);
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.rprop1:hover{
+    background: rgba(255,255,255,0.2)
+}
+
+.google{
+    width: 20%;
+   margin-bottom: 10px;
+}
+.user{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+@media (max-width:450px){
+    .myrevs{
+        margin-top: 0px;
+        padding: 10px 15px;
+    }
+    .myrevs h3{
+        font-size: 25px;
+        margin: 20px 0 5px 0px;
+    }
+    .inmyrevs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rprop1{
+        width: 95%;
+    }
+}

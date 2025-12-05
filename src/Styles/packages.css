@@ -1,0 +1,10 @@
+.mypacks{
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom right, #0d001a, #1a0033, #33004d);
+    padding-top: 30px;
+}
+.inmypacks{
+    background: linear-gradient(to bottom right, #0d001a, #1a0033, #33004d);
+    padding-bottom: 20px;
+    margin-bottom: -65px;
+}

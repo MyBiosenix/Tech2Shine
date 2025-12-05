@@ -1,0 +1,66 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    gap: 25px;
+    margin-bottom: 0;
+    animation: fadeSlideUp 1s ease backwards;
+}
+
+@keyframes fadeSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(140px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.detail h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.detail p{
+    font-size: 20px;
+}
+.bttns{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.bttns button{
+    background: rgba(205, 202, 202, 0.4);
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+.bttns button:hover{
+    transform: scale(0.9);
+}
+
+@media (max-width:450px){
+    .detail{
+        padding: 30px 15px;
+    }
+    .detail h3{
+        font-size: 20px;
+    }
+    .detail p{
+        font-size: 15px;
+    }
+    .bttns{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bttns button{
+        width: 200px;
+        font-size: 15px;
+    }
+}

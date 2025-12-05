@@ -1,0 +1,74 @@
+.myfree{
+    
+    margin-top: -19px;
+    padding: 20px 40px;
+    color: white;
+}
+.myfree h3{
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0;
+}
+.gofree{
+    display: flex;
+    gap: 20px;
+
+}
+.freeprop{
+    background: rgba(205, 202, 202, 0.4);
+    padding: 20px 35px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.freeprop:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.freeprop h4{
+    font-size: 25px;
+    margin: 0;
+}
+.freeprop p{
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+.freeprop img{
+    width: 90px;
+    height: auto;
+}
+@media (max-width:450px){
+    .myfree{
+        margin-top: 0px;
+        padding: 10px 15px;
+    }
+    .myfree h3{
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    .gofree{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .freeprop{
+        width: 95%;
+        gap: 10px;
+    }
+    .freeprop h4{
+        font-size: 20px;
+    }
+    .freeprop p{
+        font-size: 15px;
+    }
+    .freeprop img{
+        width: 60px;
+    }
+}

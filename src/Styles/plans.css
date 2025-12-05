@@ -1,0 +1,131 @@
+.myplans{
+    padding: 20px 40px;
+    color: white;
+    text-align: center;
+}
+
+.myplans h3{
+    font-size: 32px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.myplans h4{
+    font-size: 25px;
+    opacity: 0.8;
+    margin: 30px 0;
+}
+
+.in-myplans{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.bigplan{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+.plan{
+    background: rgba(255,255,255,0.1);
+    padding: 25px 35px;
+    border-radius: 10px;
+    width: 100%;
+    transition: 0.3s;
+  
+    cursor: pointer;
+}
+
+.plan:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+.pops{
+    background: rgba(243, 243, 243, 0.2);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    margin-top: -24px;
+    margin-bottom: 10px;
+}
+
+.pops p{
+    margin: 0;
+    padding: 20px 30px;
+    text-align: center;
+}
+.np h6{
+    font-size: 22px;
+    margin: 0;
+    text-align: left;
+}
+
+.np h5{
+    font-size: 26px;
+    margin: 5px 0 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.deline{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    margin: 6px 0;
+}
+
+.plan button{
+    background: #F4A328;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.plan button:hover{
+    background: #ffb300;
+}
+@media (max-width:450px){
+    .myplans{
+        margin-top: 0px;
+        padding: 10px 15px;
+    }
+    .myplans h3{
+        font-size: 25px;
+        margin: 20px 0 5px 0px;
+    }
+    .myplans h4{
+        font-size: 22px;
+        margin: 20px 0;
+    }
+    .in-myplans{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bigplan{
+        width: 95%;
+        padding:0px;
+    }
+    .np h5{
+        font-size: 22px;
+    }   
+    .np h6{
+        font-size: 20px;
+    }
+    .deline{
+        font-size: 15px;
+    }
+    .pops p{
+        font-size: 25px;
+    }
+}
