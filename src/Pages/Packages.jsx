@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Components/Header'
 import Plans from '../Components/Plans'
 import Footer from '../Components/Footer'
-import '../Styles/packages.css'
+import '../Styles/home.css'
 import ScrollTop from '../Components/ScrollTop'
 
 function Packages() {

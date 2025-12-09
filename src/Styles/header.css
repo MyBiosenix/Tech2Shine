@@ -3,6 +3,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px;
+  z-index: 2000;
+  width: 100%;
+  overflow-x: hidden;
 }
 .logo{
   width: 200px;
@@ -25,6 +28,7 @@
   background: rgba(205, 202, 202, 0.4);
   padding: 10px 15px;
   border-radius: 5px;
+  z-index: 3000;
 }
 .inhead p{
   font-size: 18px;
@@ -46,7 +50,7 @@
   flex-direction: column;
   cursor: pointer;
   gap: 6px;
-  z-index: 1001;
+  z-index: 4000;
 }
 
 .bar {
@@ -70,6 +74,7 @@
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
+
   }
 
   .header {

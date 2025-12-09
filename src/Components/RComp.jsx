@@ -1,20 +1,20 @@
 import React,{useState} from 'react'
 import RProp from '../Props/RProp'
-import r1 from '../assets/1.jpg'
-import r2 from '../assets/2.jpg'
-import r3 from '../assets/3.jpg'
-import r4 from '../assets/4.jpg'
-import r5 from '../assets/5.jpg'
-import r6 from '../assets/6.jpg'
-import r7 from '../assets/7.jpg'
-import r8 from '../assets/8.jpg'
-import r9 from '../assets/9.jpg'
-import r10 from '../assets/10.jpg'
-import r11 from '../assets/11.jpg'
-import r12 from '../assets/12.jpg'
-import r13 from '../assets/13.jpg'
-import r14 from '../assets/14.jpg'
-import r15 from '../assets/15.jpg'
+import r1 from '../assets/1.jpeg'
+import r2 from '../assets/62.jpeg'
+import r3 from '../assets/2.jpeg'
+import r4 from '../assets/3.jpeg'
+import r5 from '../assets/4.jpeg'
+import r6 from '../assets/5.jpeg'
+import r7 from '../assets/6.jpeg'
+import r8 from '../assets/7.jpeg'
+import r9 from '../assets/8.jpeg'
+import r10 from '../assets/10.jpeg'
+import r11 from '../assets/9.jpeg'
+import r12 from '../assets/12.jpeg'
+import r13 from '../assets/13.jpeg'
+import r14 from '../assets/14.jpeg'
+import r15 from '../assets/15.jpeg'
 import r16 from '../assets/16.jpg'
 import r17 from '../assets/17.jpg'
 import r18 from '../assets/18.jpg'
@@ -25,7 +25,7 @@ import r22 from '../assets/22.jpg'
 import r23 from '../assets/23.jpg'
 import r24 from '../assets/24.jpg'
 import r25 from '../assets/25.jpg'
-import locimg from '../assets/office-outside.jpg'
+import locimg from '../assets/building.jpeg'
 import mymap from '../assets/mymap.png'
 import office3 from '../assets/office3.jpg'
 import '../Styles/rcomp.css'
@@ -278,9 +278,7 @@ function RComp() {
         </div>
         
         <div className='add'>
-            <p><span style={{ fontWeight: 'bold' }}>Address:</span> 60, MAATHAPITHA NILAYA, NEAR PRAKRUTHI LAYOUT THOTADA
-                  GUDDADAHALLI, NAGASANDRA POST,
-                  BANGALORE, Karnataka, India - 560073</p>
+            <p><span style={{ fontWeight: 'bold' }}>Address:</span>Bommanahalli, Bangalore,Karnataka, 560068</p>
         
             <div className='hours'>
                 <details>

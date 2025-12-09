@@ -1,7 +1,10 @@
 import React from 'react'
 import '../Styles/detail.css'
+import { useNavigate } from 'react-router-dom'
 
 function Detail() {
+
+  const navigate = useNavigate();
   return (
     <div className='detail'>
         <h3>Turn Your Time Online Into Real Income — Safely and Smartly</h3>
@@ -14,8 +17,8 @@ function Detail() {
             Join the growing community of people who trust us to save their time, protect their energy, and build lasting financial freedom — one verified opportunity at a time.
         </p>
         <div className='bttns'>
-            <button>Get Started</button>
-            <button>See Projects</button>
+            <button onClick={()=>navigate('/')}>Get Started</button>
+            <button onClick={()=>navigate('/services')}>See Projects</button>
         </div>
     </div>
   )

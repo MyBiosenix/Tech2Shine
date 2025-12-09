@@ -65,7 +65,7 @@
 @media (max-width: 450px) {
   .about {
     padding: 10px 15px;
-    text-align: center;
+    text-align: start;
     width: 100%;
   }
 
@@ -82,6 +82,7 @@
   .about p {
     font-size: 15px;
     line-height: 1.5;
+    text-align: start;
   }
 
   .in-about {
@@ -108,7 +109,7 @@
   }
   .about p, 
   .ingrid p {
-    text-align: center; 
+    text-align: start; 
   }
   .icon {
     font-size: 40px;

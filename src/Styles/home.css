@@ -12,6 +12,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
     max-width: 100vw;
+    overflow-x: hidden;
 }
 .inhome {
   background: 
@@ -24,4 +25,13 @@ body {
 }
 .hme2{
   background: linear-gradient(to bottom right, #0d001a, #1a0033, #33004d);
+}
+@media (max-width: 400px) {
+  .home{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .inhome {
+    background-attachment: scroll !important;
+  }
 }
