@@ -4,6 +4,15 @@ import { FaRegCalendarAlt, FaDownload } from 'react-icons/fa'
 import { MdMenu } from 'react-icons/md';
 
 function ProofComp() {
+
+  const pdfLinks = {
+    2020: "/TRANSACTION DETAILS JAN TO DEC 2020.pdf",
+    2021: "/TRANSACTION DETAILS JAN TO DEC 2021.pdf",
+    2022: "/TRANSACTION DETAILS JAN TO DEC 2022.pdf",
+    2023: "/TRANSACTION DETAILS JAN TO DEC 2023.pdf",
+    2024: "/TRANSACTION DETAILS JAN TO DEC 2024.pdf",
+    2025: "/TRANSACTION DETAILS JAN TO DEC 2025.pdf"
+  }
   return (
     <div className='prof'>
       
@@ -14,7 +23,7 @@ function ProofComp() {
           <FaRegCalendarAlt className='mycal'/>
           <h4>Data Conversion Project Brochure</h4>
           <a
-            href="/TECH2SHINE DATA CONVERSION PROJECT.pdf.pdf"
+            href="/TECH2SHINE DATA CONVERSION PROJECT.pdf-1.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className='proof-btn'
@@ -28,7 +37,7 @@ function ProofComp() {
           <FaRegCalendarAlt className='mycal'/>
           <h4>Data Segregation Project Brochure</h4>
           <a
-            href="/TECH2SHINE SEGREGATION.pdf"
+            href="/TECH2SHINE SEGREGATION PROJECT.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className='proof-btn'
@@ -62,7 +71,7 @@ function ProofComp() {
             <FaRegCalendarAlt className='mycal'/>
             <h4>Payment Proofs of {year}</h4>
             <a
-              href="#"
+              href={pdfLinks[year]}
               target="_blank"
               rel="noopener noreferrer"
               className='proof-btn'

@@ -62,8 +62,8 @@ function ContactComp() {
                 <FaWhatsapp className='mycon'/>
                 <div className='mytxt'>
                     <h5>Chat Support!</h5>
-                    <a href="https://wa.me/919137683024" target="_blank" rel="noopener noreferrer">
-                        +91 91376 83024
+                    <a href="https://wa.me/917982782660" target="_blank" rel="noopener noreferrer">
+                        +91 79827 82660
                     </a>
                 </div>
             </div>

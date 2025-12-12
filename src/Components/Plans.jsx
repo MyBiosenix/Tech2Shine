@@ -64,7 +64,7 @@ function Plans() {
             "Earning Per Page: Rs. 240.00/-",
             "Contract Duration: 33 Months",
             "Freelancer Fee: Rs. 3,999/-",
-            "Minimum Submission: 150 Pages",
+            "Minimum Submission: 170 Pages",
             "Work Duration: 30 Days",
             "Payment: Rs. 48,000/-"
           ]}
@@ -126,7 +126,7 @@ function Plans() {
             "Earning Per Form: Rs. 16.00/-",
             "Contract Duration: 33 Months",
             "Freelancer Fee: Rs. 3,999/-",
-            "Minimum Submission: 2000 Forms",
+            "Minimum Submission: 2100 Forms",
             "Work Duration: 30 Days",
             "Payment: Rs. 48,000/-"
           ]}
